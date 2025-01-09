@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1996ae;
+  background-image: url('images/bg-pattern-top.svg'), url('images/bg-pattern-bottom.svg');
+  background-position: top left, bottom right;
+  background-repeat: no-repeat, no-repeat;
+  background-size:auto;
+}
+
+.profile_img {
+  width: 80px; 
+  height: 80px; 
+  border-radius: 50%; 
+  overflow: hidden; 
+  margin: auto; 
+  display: block; 
+  border: 3px solid white; 
+  position: absolute;
+  top: 75px; 
+  left: 50%;
+  transform: translateX(-50%); 
+  z-index: 2;
+}
+
+.profile_img img {
+  width: 80px; 
+  height: 80px; 
+  object-fit: cover;
+  display: block;
+  
+  
+}
+
+.card{
+  background-color: white;
+  border-radius: 10px;
+  width: 300px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  margin: 130px auto;
+  position: relative;
+  
+
+}
+
+.stats1{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px 0px 40px ;
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 7px;
+  
+
+}
+
+.stats2{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 40px 20px 30px ;
+  color: hsl(0, 0%, 59%);
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 10px;
+  
+
+}
+
+.personl_info p {
+  color: hsl(0, 0%, 59%);
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 5px;
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+.age {
+  color: hsl(0, 0%, 59%);
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+
+}
+
+.personl_info h1 {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: bold;
+}
+
+
+
+
+.personl_info{
+  padding-top: 50px;
+  font-size: x-small;
+}
+
+
+.profile_bg img {
+  height: 120px;
+}
